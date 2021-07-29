@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/* html{
+    display:none;
+} */
+.wrap{
+    width:100%;
+}
+.wrap .nav{
+    background-color:#333;
+    height:67px;
+    line-height: 67px;
+    color:white
+}
+.nav h2{
+    float:left;
+    margin-left:100px;
+}
+.nav ul{
+ 
+    list-style: none;
+}
+.nav ul li{
+    float:right;
+    padding:0px 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.nav ul li:hover{
+    background-color:#444;
+}
+.banner{
+    /* background-image:url("./img/pexels-patryk-kamenczak-775219.jpg") ; */
+    height:600px;
+    width:100%;
+    background: url(../img/pexels-patryk-kamenczak-775219.jpg) no-repeat center center/cover;
+    float:left;
+}
+.banner h1{
+    font-size:60px;
+    text-align: center;
+    padding-top:170px;
+    color:white; 
+}
+.banner h1 span{
+    color:#f7c08a;
+}
+.banner .bp1{
+    width:75%;
+    text-align: center;
+    height:62px;
+    font-size:18px;
+    line-height:30px;
+    color:white;
+    margin:0px auto;
+    margin-top:50px;
+}
+.banner .bp2{
+    text-align:center;
+    width:112px;
+    height:53px;
+    line-height:53px;
+    background-color:#333;
+    margin:0px auto;
+    margin-top:40px;
+}
+.bp2 a{
+    text-decoration: none;
+    color:white;
+}
+.bp2:hover{
+    background-color:#f7c08a;
+}
+.shouye{
+    
+    width:100%;
+
+}
+.shouye img{
+    display: inline-block;
+    height:400px;
+    width:50%;
+    display: inline-block;
+}
+.present{
+   width:50%;
+   float: right;
+   height:400px;
+   background-color: #444;
+   overflow: hidden;
+}
+.present h2{
+    color:white;
+    text-align: center;
+    padding:45px 0px;
+}
+.present h2 span{
+   color:#f7c08a;
+}
+.present p{
+   width:80%;
+   text-align: center;
+   margin:0 auto;
+   color:white;
+   line-height:30px;
+}
+.present a{
+   
+   display:inline-block;
+   text-decoration: none;
+   padding:15px;
+   color:white;
+   background-color: #333;
+   font-size:18px;
+   position: relative;
+   right:-48%;
+   margin-top:40px;
+}
+.present a:hover{
+   background-color: yellow;
+}
+
+.jieshao{
+   width:100%;
+   height:280px;
+   display:flex;
+}
+.j1{
+   height:280px;
+   background: white;
+   flex:1;
+}
+.j2{
+background: #f7c08a;
+height:280px;
+flex:1;
+}
+.j3{
+background:white;
+height:280px;
+flex:1;
+}
+.j1 p{
+   width:75%;
+   margin: 0px auto;
+   text-align: center;
+}
+.j2 p{
+width:75%;
+margin: 0px auto;
+text-align: center;
+}
+.j3 p{
+width:75%;
+margin: 0px auto;
+text-align: center;
+}
+.lei{
+   margin:50px 0px;
+   text-align: center;
+}
+.lei i{
+   opacity: 0.8;
+}
+.lei p{
+   padding-top:20px;
+}
+.bottom{
+ background-color:black;
+ text-align: center;
+ height:50px;
+ line-height:50px;
+ color:white;
+}
+.nav ul li:nth-child(3){
+ background-color:#444;
+}

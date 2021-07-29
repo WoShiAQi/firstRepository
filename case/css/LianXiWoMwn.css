@@ -1,0 +1,141 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+.wrap{
+    width:100%;
+    display: none;
+}
+.wrap .nav{
+    background-color:#333;
+    height:67px;
+    line-height: 67px;
+    color:white
+}
+.wrap h2{
+    float:left;
+    margin-left:100px;
+}
+.wrap ul{
+    list-style: none;
+    float:right;
+}
+.wrap ul li{
+    float:left;
+    padding:0px 15px;
+}
+.nav ul li:hover{
+    background-color:#444;
+}
+.wrap ul li a{
+    text-decoration: none;
+    color:white;
+}
+.nl1{
+    background-color:#444;
+}
+.form{
+    width:60%;
+    margin:0px auto;
+    margin-top:20px;
+}
+.form h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+.form h1 span{
+    color:#f7c08a;
+}
+.p2{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#text{
+    width:100%;
+    height:37px;
+    
+}
+.p3{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+#text:focus {
+    
+    border-style:solid;  
+     border-color: #03a9f4;  
+     box-shadow: 0 0 15px #03a9f4; 
+ }
+ #email{
+    width:100%;
+    height:37px;
+}
+.p4{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+ #email:focus {
+    border-style:solid;  
+     border-color: #03a9f4;  
+     box-shadow: 0 0 15px #03a9f4; 
+ }
+ #area{
+    width:100%;
+    height:200px;
+}
+ #area:focus {
+    border-style:solid;  
+     border-color: #03a9f4;  
+     box-shadow: 0 0 15px #03a9f4; 
+ }
+ button{
+     font-size:20px;
+     width:76px;
+     height:50px;
+     background-color: #333;
+     color:white;
+     line-height:50px;
+     margin-top: 20px;
+ }
+ .bottom{
+     width:100%;
+     height:252px;
+     background-color: #444;
+     margin-top:10px;
+ }
+ .bottom2{
+     width:60%;
+     height:252px;
+     display:flex;
+     margin:0px auto; 
+ }
+ .d1{
+     flex:1;
+     height:100%;
+     margin-top:50px;
+ }
+ .d1 i{
+display:block;
+text-align: center;
+font-size:50px;
+color:white;
+ }
+ .d1 h2{
+     margin-top:5px;
+    margin-left:140px;
+    color:white;
+ }
+ .d1 p{
+     margin-top:75px;
+     text-align:center;
+     color:white;
+ }
+ .footer{
+    background-color:#333;
+    text-align: center;
+    height:50px;
+    line-height:50px;
+    color:white;
+   }
+
+ 
